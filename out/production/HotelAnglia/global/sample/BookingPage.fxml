@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="10" prefHeight="314.0" prefWidth="770.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.BookingPage">
+
+   <children>
+       <Label text="Room Type" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+       <ComboBox fx:id="RoomType" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+       <Label text="Check-in date" GridPane.columnIndex="1" />
+       <DatePicker fx:id="inDate" GridPane.columnIndex="2" />
+       <Label text="Check-out date" GridPane.columnIndex="3" />
+       <DatePicker fx:id="outDate" onAction="#sortDate" GridPane.columnIndex="4" />
+       <Label text="Chosen check-out date" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+       <Label fx:id="inDateLabel" text="" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+       <Label text="Chosen check-in date" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+       <Label fx:id="outDateLabel" text="" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+       <Label text="Number of Days:" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+       <Button onAction="#confirmbook" text="Confirm" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+       <Label fx:id="daysLabel" text="" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+       <Label fx:id="Confirmation" text="" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+
+
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+
+</GridPane>

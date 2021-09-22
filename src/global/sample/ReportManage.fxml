@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<GridPane alignment="CENTER" hgap="10" prefHeight="262.0" prefWidth="358.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.ReportManage">
+   <children>
+       <Label text="Hotel Reports" textFill="black" GridPane.columnIndex="3" GridPane.rowIndex="1">
+   
+       <font>
+           <Font name="Arial Italic" size="20">
+        </Font>
+       </font>/>
+       </Label>
+   
+       <Button onAction="#ReceiptReport" text="Receipt Report" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+       <Button onAction="#RoomReport" text="Room Report" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+       <Button onAction="#HotelInfo" text="Hotel info" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+       <Button onAction="#BookReport" text="Bookings Report" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+       <Button onAction="#ServiceReport" text="Services Report" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <Button fx:id="back10" mnemonicParsing="false" text="Back" GridPane.columnIndex="1" GridPane.rowIndex="11" onAction="#BackR" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>

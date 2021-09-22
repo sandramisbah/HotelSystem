@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="395.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.ReportReceipt">
+   <children>
+   
+       <TableView fx:id="ReceiptTable" prefHeight="246.0" prefWidth="214.0" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="9">
+   
+           <columns>
+               <TableColumn fx:id="Receipt_date" prefWidth="70.0" text="Date" />
+               <TableColumn fx:id="Booking_ID" prefWidth="70.0" text="BookingID" />
+               <TableColumn fx:id="Receipt_ID" prefWidth="70.0" text="ReceiptID" />
+           </columns>
+       </TableView>
+
+       <Label text="Filter Search" GridPane.rowIndex="15" />
+       <TextField fx:id="filter" prefHeight="25.0" prefWidth="86.0" GridPane.rowIndex="16"  />
+       <Button prefHeight="25.0" prefWidth="90.0" text="Search" GridPane.columnIndex="5" GridPane.rowIndex="16" onAction="#getReceiptslist" />
+
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+
+
+    </GridPane>

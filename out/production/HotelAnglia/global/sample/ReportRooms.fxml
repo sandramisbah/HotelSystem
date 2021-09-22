@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="149.0" prefWidth="287.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.ReportRooms">
+
+    <TableView fx:id="roomsTableView" prefHeight="144.0" prefWidth="283.0" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="9">
+        <columns>
+            <TableColumn fx:id="Room_ID" prefWidth="70.0" text="ID" />
+            <TableColumn fx:id="RoomType" prefWidth="70.0" text="Type" />
+            <TableColumn fx:id="Room_price" prefWidth="70" text="Price" />
+            <TableColumn fx:id="RoomQuantity" prefWidth="70.0" text="Quantity" />
+        </columns>
+    </TableView>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+
+</GridPane>

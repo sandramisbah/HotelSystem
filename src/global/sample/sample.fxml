@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefWidth="500" prefHeight="300" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.Controller">
+
+    <top>
+        <Label  text="WELCOME TO HOTEL ANGLIA"  textFill="blueviolet">
+
+            <font>
+                <Font name="Arial Italic" size="30">
+
+                </Font>
+
+            </font>
+
+        </Label>
+
+    </top>
+
+    <bottom>
+
+    <HBox alignment="top_right" spacing="10">
+        <padding>
+            <Insets bottom="10" right="10" />
+        </padding>
+   <children>
+
+   </children>
+
+
+    </HBox>
+
+    </bottom>
+
+    <center>
+        <HBox alignment="CENTER" prefHeight="27.0" prefWidth="386.0" spacing="10">
+
+            <padding>
+
+                <Insets left="10" top="10" />
+
+            </padding>
+           <children>
+   
+           <Button fx:id="close1" onAction="#CustomerWind" prefWidth="90" text="Customer">
+
+        </Button>
+   
+           <Button fx:id="close2" onAction="#ManagerWind" prefWidth="90" text="Management">
+
+
+                </Button>
+           </children>
+        </HBox>
+
+    </center>
+
+</BorderPane>

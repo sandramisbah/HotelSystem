@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.Check_in">
+   <children>
+   
+           <TableView fx:id="CheckInTableView" prefHeight="199.0" prefWidth="196.0" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.rowIndex="7">
+               <columns>
+                   <TableColumn fx:id="Booking_ID" prefWidth="77.0" text="BookingID" />
+                   <TableColumn fx:id="Start_date" prefWidth="102.0" text="StartDate" />
+                   <TableColumn fx:id="End_date" prefWidth="99.0" text="EndDate" />
+   
+               </columns>
+           </TableView>
+
+           <Button onAction="#CancelBooking" prefHeight="25.0" prefWidth="119.0" text="Cancel booking" GridPane.columnIndex="12" GridPane.rowIndex="17" />
+           <Button onAction="#CheckIn" prefHeight="25.0" prefWidth="87.0" text="Check in" GridPane.columnIndex="12" GridPane.rowIndex="5" />
+           <Label fx:id="CheckIn" text="" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+       <Label text="Select Room type" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+       <ComboBox fx:id="AvailableRooms" prefHeight="25.0" prefWidth="84.0" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+      <Button fx:id="back2" mnemonicParsing="false" onAction="#BackManage" text="Back" GridPane.columnIndex="3" GridPane.rowIndex="17" />
+
+   </children>
+
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="114.0" minWidth="6.0" prefWidth="79.0" />
+      <ColumnConstraints maxWidth="192.0" minWidth="68.0" prefWidth="116.0" />
+      <ColumnConstraints maxWidth="85.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="16.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="17.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="37.0" minWidth="0.0" prefWidth="15.0" />
+      <ColumnConstraints maxWidth="47.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="76.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="150.0" minWidth="52.0" prefWidth="67.0" />
+      <ColumnConstraints maxWidth="150.0" minWidth="57.0" prefWidth="101.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

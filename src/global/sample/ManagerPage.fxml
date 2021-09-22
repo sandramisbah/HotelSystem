@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" hgap="10" prefHeight="300" prefWidth="500" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="global.sample.ManagerPage">
+
+        <Label alignment="CENTER_RIGHT" text="Choose action to proceed" textFill="black" GridPane.columnIndex="1">
+        <Label alignment="BOTTOM_CENTER" text="Choose action to proceed" textFill="black">
+        </Label>
+            <font>
+                <Font name="Arial Italic" size="20">
+                </Font>
+            </font>
+        </Label>
+    <Button fx:id="closeIn" onAction="#checkin" text="Checkin" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+    <Button fx:id="closeOut" onAction="#checkout" text="Checkout" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+    <Button fx:id="closeBook" onAction="#Book" text="ManageBookings" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+    <Button fx:id="closeService" onAction="#Service" text="ManageServices" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+    <Button fx:id="closeRoom" onAction="#Room" text="ManageRooms" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+    <Button fx:id="closeReport" onAction="#ReportOpener" text="Report" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+    <Button fx:id="closeNew" onAction="#BookNew" text="NewBooking" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+   <Button fx:id="back1" mnemonicParsing="false" text="Back" GridPane.rowIndex="7" onAction="#LoginBack"/>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>

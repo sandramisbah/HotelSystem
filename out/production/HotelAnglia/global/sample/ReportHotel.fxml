@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="129.0" prefWidth="561.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.ReportHotel">
+
+    <TableView fx:id="HotelTable" prefHeight="86.0" prefWidth="574.0" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="9">
+
+        <columns>
+            <TableColumn fx:id="Hotel_ID" prefWidth="70.0" text="ID" />
+            <TableColumn fx:id="Hotel_title" prefWidth="70.0" text="Title" />
+            <TableColumn fx:id="HotelEmail" prefWidth="124.0" text="Email" />
+            <TableColumn fx:id="AdminUsername" text="Username" />
+            <TableColumn fx:id="AdminPassword" prefWidth="69.0" text="Password" />
+            <TableColumn fx:id="HotelAddress" prefWidth="63.0" text="Address" />
+            <TableColumn fx:id="Contact_number" prefWidth="69.0" text="Contact" />
+        </columns>
+    </TableView>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="546.0" minWidth="546.0" prefWidth="546.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

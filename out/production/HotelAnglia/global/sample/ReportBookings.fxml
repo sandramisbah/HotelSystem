@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="201.0" prefWidth="208.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.ReportBookings">
+
+
+        <TableView fx:id="bookingsTableView" prefHeight="200.00" prefWidth="211.0" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.rowIndex="7">
+            <columns>
+                <TableColumn fx:id="Booking_ID" prefWidth="70.0" text="BookingID" />
+                <TableColumn fx:id="Start_date" prefWidth="70.0" text="StartDate" />
+                <TableColumn fx:id="End_date" prefWidth="70.0" text="EndDate" />
+                
+            </columns>
+        </TableView>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>

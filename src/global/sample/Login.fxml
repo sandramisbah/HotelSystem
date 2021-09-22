@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="10" prefHeight="209.0" prefWidth="324.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.Login">
+   <children>
+   
+       <Label text="User name" GridPane.columnIndex="1" />
+       <TextField fx:id="namefield" GridPane.columnIndex="2" />
+   
+   
+       <Label text="Password" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+       <PasswordField fx:id="passfield" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+   
+   
+       <Button fx:id="close1" onAction="#ManagementOpener" prefHeight="23.0" prefWidth="56.0" text="Submit" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+       <Button fx:id="back" onAction="#MainBack" text="Back" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>

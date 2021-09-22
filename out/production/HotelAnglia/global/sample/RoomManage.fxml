@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="245.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.RoomManage">
+    <Label text="Single Rooms" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+    <ComboBox fx:id="SingleRooms" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+
+    <Label text="Double Rooms" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+    <ComboBox fx:id="DoubleRooms" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+
+    <Label text="ExcecutiveSuite" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+    <ComboBox fx:id="ExcecutiveSuite" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+
+    <Label text="PresidentalSuite" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+
+    <ComboBox fx:id="PresidentalSuite" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+    <Label text="Set Room as OFF :" textFill="black" GridPane.columnIndex="7" GridPane.rowIndex="11" />
+    <RadioButton text="Blocked" GridPane.columnIndex="7" GridPane.rowIndex="12">
+      <toggleGroup>
+         <ToggleGroup />
+      </toggleGroup></RadioButton>
+    <RadioButton text="Maintenance" toggleGroup="$Group1" GridPane.columnIndex="8" GridPane.rowIndex="12" />
+    <Button  text="Update" GridPane.columnIndex="9" GridPane.rowIndex="14" />
+    <Button fx:id="back4" onAction="#Mback" text="Back" GridPane.columnIndex="0" GridPane.rowIndex="14" />
+
+
+       <TableView fx:id="roomsTableView" prefHeight="144.0" prefWidth="283.0" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="9">
+           <columns>
+               <TableColumn fx:id="Room_ID" prefWidth="70.0" text="ID" />
+               <TableColumn fx:id="RoomType" prefWidth="70.0" text="Type" />
+               <TableColumn fx:id="Room_price" prefWidth="70" text="Price" />
+               <TableColumn fx:id="RoomQuantity" prefWidth="70.0" text="Quantity" />
+           </columns>
+       </TableView>
+
+    <fx:define>
+        <ToggleGroup fx:id="Group1" />
+    </fx:define>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>

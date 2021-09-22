@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="336.0" prefWidth="579.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.ServiceManage">
+   <children>
+   
+       <TableView fx:id="tblview" prefHeight="246.0" prefWidth="213.0" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="9">
+   
+           <columns>
+               <TableColumn fx:id="Service_ID" prefWidth="70.0" text="ID" />
+               <TableColumn fx:id="ServiceType" prefWidth="70.0" text="Type" />
+               <TableColumn fx:id="Service_price" prefWidth="70.0" text="Price" />
+           </columns>
+       </TableView>
+       <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="2">
+          <children>
+              <TextField fx:id="NewServiceID" prefWidth="90" promptText="ServiceID" />
+              <TextField fx:id="NewServiceType" prefWidth="90" promptText="type" />
+              <TextField fx:id="NewServicePrice" prefWidth="90" promptText="price" />
+              <Button onAction="#AddNewService" prefHeight="25.0" prefWidth="47.0" text="Add" />
+          </children>
+       </HBox>
+       <Button onAction="#DeleteRowFromTable" prefHeight="25.0" prefWidth="140.0" text="Delete Selected service" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+      <Button fx:id="back5" mnemonicParsing="false" text="Back" GridPane.rowIndex="13" onAction="#MBack" />
+   </children>
+
+
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

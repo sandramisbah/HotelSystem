@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="245.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="global.sample.Check_out">
+   <children>
+           <TableView fx:id="CheckOutTableView" prefHeight="184.0" prefWidth="213.0" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.rowIndex="7">
+               <columns>
+                   <TableColumn fx:id="Booking_ID" prefWidth="75.0" text="BookingID" />
+                   <TableColumn fx:id="Start_date" prefWidth="104.0" text="StartDate" />
+                   <TableColumn fx:id="End_date" prefWidth="99.0" text="EndDate" />
+   
+               </columns>
+           </TableView>
+           <Button onAction="#CheckOut" prefHeight="25.0" prefWidth="73.0" text="Check out" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+           <Button prefHeight="25.0" prefWidth="118.0" text="Print Receipt" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+           <Label fx:id="CheckOut" text="" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+      <Button fx:id="back3" mnemonicParsing="false" text="Back" GridPane.columnIndex="4" GridPane.rowIndex="17" onAction="#MBack"/>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="70.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="70.0" minWidth="0.0" prefWidth="70.0" />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints maxHeight="25.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="25.0" minHeight="0.0" prefHeight="25.0" />
+   </rowConstraints>
+
+</GridPane>

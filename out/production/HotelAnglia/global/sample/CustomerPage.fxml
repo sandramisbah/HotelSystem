@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="10" prefHeight="300" prefWidth="500" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="global.sample.CustomerPage">
+
+    <Label alignment="TOP_CENTER" text="Would you like to create a new booking or modify an existing booking ?" textFill="black" GridPane.columnIndex="1" />
+
+
+    <Button onAction="#NewBook" text="NewBooking" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <Button onAction="#findID" text="ModifyBooking" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+   <Button fx:id="back8" mnemonicParsing="false" text="Back" GridPane.rowIndex="3" onAction="#CBack" />
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+
+</GridPane>
